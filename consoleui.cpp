@@ -31,6 +31,9 @@ void consoleUI::run(){
 
         //Villutjekk!!
     }
+    else if(command =="search"){
+        //TODO
+    }
     else{
         cout << "Please enter valid command." << endl;
     }
