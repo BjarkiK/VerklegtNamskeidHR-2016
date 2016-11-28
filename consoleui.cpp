@@ -14,7 +14,7 @@ void consoleUI::run(){
     cout << "Please enter one of the folowing comands: " << endl;
     cout << "list - This will list all performers in the system." << endl;
     cout << "add - This will adda new performer." << endl;
-
+    cout << "search - Search for a given performer." << endl;
     string command;
     cin >> command;
     if (command == "list"){
@@ -26,8 +26,8 @@ void consoleUI::run(){
         cin >> name;
         cin >> age;
 
-        Performer newPerformer(name, age);
-        _service.addPerformer(newPerformer);
+        //Performer newPerformer(name, age);
+        //_service.addPerformer(newPerformer);
 
         //Villutjekk!!
     }

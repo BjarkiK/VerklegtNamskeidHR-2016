@@ -11,6 +11,8 @@ class Performerservice
 public:
     Performerservice();
 
+    addPerformer();
+
     vector <Performer> getPerformers(/*Setja inn færibreytur hér*/);
 };
 

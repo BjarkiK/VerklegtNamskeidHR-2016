@@ -5,6 +5,10 @@ Performerservice::Performerservice()
 
 }
 
+Performerservice::addPerformer(){
+
+}
+
 vector <Performer> Performerservice::getPerformers(/*Setja inn færibreytur hér*/){
     vector <Performer> performers;
 
